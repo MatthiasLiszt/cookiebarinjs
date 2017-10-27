@@ -1,0 +1,17 @@
+
+#qookiebar{
+ background-color: black;
+ color: white;
+ position: fixed;
+ z-index: -1;
+ bottom: 2vh;
+ width: 100vw;
+ text-align: center;
+ overflow: auto;
+}
+
+.qookiebutton{
+ background-color: black;
+ color: white;
+ border: none;
+}
