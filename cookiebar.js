@@ -10,3 +10,10 @@ var Accept="<button class='qookiebutton' onclick='(function(){document.cookie=\"
 var MoreInfo="<button class='qookiebutton' onclick='alert(\""+boringLaw+"\")'>MoreInfo</button>";
 
 qookie.innerHTML="This site contains cookies."+Accept+MoreInfo;
+
+qookiefocus();
+
+function qookiefocus(){
+ var qookie=document.getElementById('qookiebar').focus();
+ console.log('qookiebar focused');
+}
