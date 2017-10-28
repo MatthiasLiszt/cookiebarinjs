@@ -3,7 +3,7 @@
  background-color: black;
  color: white;
  position: fixed;
- z-index: -2;
+ z-index: 1000001;
  bottom: 2vh;
  width: 100vw;
  text-align: center;
